@@ -52,7 +52,7 @@ namespace Tarea_4
             {
                 "/start" => "¡Bienvenido! Usa /ayuda para ver comandos.",
                 "/hora" => $"La hora actual es: {DateTime.Now:T}",
-                "/info" => "Este bot pertenece a Gabito y a Alejo y es su tarea 4",
+                "/info" => "Este bot pertenece a Gabito y a Alejo y es su tarea 4, usa /ayuda para saber que puedo hacer",
                 "/ayuda" => "Comandos disponibles:\n/start\n/hora\n/info\n/ayuda\n/saludar",
                 "/saludar" => "¡Hola! ¿Cuál es tu nombre?",
                 _ => "No reconozco ese comando. Usa /ayuda."
