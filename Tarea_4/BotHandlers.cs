@@ -18,8 +18,9 @@ namespace Tarea_4
                 return;
 
             var chatId = update.Message.Chat.Id;
+            Console.WriteLine($"Mensaje recibido: {messageText}");
 
-            // -------------------------------
+
             // Si el usuario ya está en un estado
             if (chatStates.TryGetValue(chatId, out string state))
             {
@@ -29,7 +30,7 @@ namespace Tarea_4
                     await botClient.SendMessage(chatId, $"¡Hola {nombre}! Soy el bot de Alejo y Gabito, ¿cómo estás?", cancellationToken: cancellationToken);
 
                     chatStates[chatId] = "esperando_respuesta";
-                    return; // 🚨 importantísimo: salir antes de ejecutar switch
+                    return; //  importantísimo: salir antes de ejecutar switch
                 }
 
                 if (state == "esperando_respuesta")
@@ -42,11 +43,10 @@ namespace Tarea_4
                         await botClient.SendMessage(chatId, "Interesante... muy interesante jaja, para saber que puedo hacer usa /ayuda", cancellationToken: cancellationToken);
 
                     chatStates.Remove(chatId); // fin del flujo
-                    return; // 🚨 salir antes de ejecutar switch
+                    return; //  salir antes de ejecutar switch
                 }
             }
 
-            // -------------------------------
             // Comandos normales
             string response = messageText.ToLower() switch
             {
@@ -66,15 +66,7 @@ namespace Tarea_4
             {
                 chatStates[chatId] = "esperando_nombre";
             }
-            else if (chatStates.TryGetValue(chatId, out string waitingState) && waitingState == "esperando_nombre")
-            {
-                // El usuario respondió con su nombre
-                string nombre = messageText.Trim();
-                await botClient.SendMessage(chatId, $"¡Hola {nombre}! Soy el bot de Alejo y Gabito, ¿cómo estás?", cancellationToken: cancellationToken);
-
-                // Ahora esperamos su respuesta de "bien" o "mal"
-                chatStates[chatId] = "esperando_respuesta";
-            }
+            
         }
     }
 }
