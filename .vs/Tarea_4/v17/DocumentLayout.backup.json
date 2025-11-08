@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\",
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|c:\\users\\gabriel\\desktop\\c\u002B\u002B\\tarea_4\\tarea_4\\bothandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|c:\\users\\gabriel\\desktop\\c\u002B\u002B\\tarea_4\\tarea4\\tarea_4\\bothandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|solutionrelative:tarea_4\\bothandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|c:\\users\\gabriel\\desktop\\c\u002B\u002B\\tarea_4\\tarea_4\\boterrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|c:\\users\\gabriel\\desktop\\c\u002B\u002B\\tarea_4\\tarea4\\tarea_4\\boterrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|solutionrelative:tarea_4\\boterrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|c:\\users\\gabriel\\desktop\\c\u002B\u002B\\tarea_4\\tarea_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|c:\\users\\gabriel\\desktop\\c\u002B\u002B\\tarea_4\\tarea4\\tarea_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD828EC-9461-492D-A0D2-16AEBFD5D2EA}|Tarea_4\\Tarea_4.csproj|solutionrelative:tarea_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BotHandlers.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\Tarea_4\\BotHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\Tarea_4\\BotHandlers.cs",
               "RelativeDocumentMoniker": "Tarea_4\\BotHandlers.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\Tarea_4\\BotHandlers.cs*",
-              "RelativeToolTip": "Tarea_4\\BotHandlers.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\Tarea_4\\BotHandlers.cs",
+              "RelativeToolTip": "Tarea_4\\BotHandlers.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T15:12:47.003Z",
               "EditorCaption": ""
@@ -45,27 +45,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BotErrorHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\Tarea_4\\BotErrorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\Tarea_4\\BotErrorHandler.cs",
               "RelativeDocumentMoniker": "Tarea_4\\BotErrorHandler.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\Tarea_4\\BotErrorHandler.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\Tarea_4\\BotErrorHandler.cs",
               "RelativeToolTip": "Tarea_4\\BotErrorHandler.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAkwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T15:12:16.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T15:12:16.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\Tarea_4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\Tarea_4\\Program.cs",
               "RelativeDocumentMoniker": "Tarea_4\\Program.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\Tarea_4\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\c\u002B\u002B\\Tarea_4\\tarea4\\Tarea_4\\Program.cs",
               "RelativeToolTip": "Tarea_4\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T15:11:27.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T15:11:27.904Z"
             }
           ]
         }

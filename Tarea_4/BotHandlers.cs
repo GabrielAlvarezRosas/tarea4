@@ -19,7 +19,7 @@ namespace Tarea_4
             if (update.Message?.Text is not string messageText) return;
 
             var chatId = update.Message.Chat.Id;
-            Console.WriteLine($"📩 Mensaje recibido: {messageText}");
+            Console.WriteLine($"Mensaje recibido: {messageText}");
 
             string response = messageText switch
             {
