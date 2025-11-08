@@ -26,7 +26,8 @@ namespace Tarea_4
                 "/start" => "¡Bienvenido! Usa /ayuda para ver comandos.",
                 "/hora" => $"La hora actual es: {DateTime.Now:T}",
                 var msg when msg.StartsWith("/eco") => msg.Replace("/eco", "").TrimStart(),
-                "/ayuda" => "Comandos disponibles:\n/start\n/hora\n/eco <mensaje>\n/ayuda",
+                "/info" => "Este bot pertenece a Gabito y a Alejo y es su tarea 4",
+                "/ayuda" => "Comandos disponibles:\n/start\n/hora\n/eco <mensaje>\n/info\n/ayuda",
                 _ => "No reconozco ese comando. Usa /ayuda."
             };
 
